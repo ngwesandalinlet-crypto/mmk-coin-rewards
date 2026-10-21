@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="my">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MMK Coin Rewards</title>
+<style>
+body{font-family:Arial,sans-serif;background:#f5f3ff;text-align:center;margin:0;padding:20px;color:#292044}
+.card{background:white;padding:22px;border-radius:20px;margin:15px auto;max-width:360px;box-shadow:0 3px 12px #ddd}
+h1{color:#7845c4}
+.coins{font-size:32px;font-weight:bold;color:#e49b00}
+button{background:#7845c4;color:white;border:0;border-radius:12px;padding:14px;margin:8px;width:90%;font-size:16px}
+.note{font-size:13px;color:#666}
+</style>
+</head>
+<body>
+<h1>🐱 MMK Coin Rewards</h1>
+<div class="card">
+<p>စုစုပေါင်း Coin</p>
+<div class="coins" id="coins">0</div>
+<p class="note">စမ်းသပ် Coin သာဖြစ်ပြီး ငွေသားမဟုတ်ပါ။</p>
+</div>
+<div class="card">
+<h3>📺 ကြော်ငြာကြည့်မယ်</h3>
+<p>ခွင့်ပြုထားသော ကြော်ငြာစနစ် မချိတ်ဆက်ရသေးပါ။</p>
+<button onclick="alert('ကြော်ငြာစနစ် ချိတ်ဆက်ပြီးမှ Coin ရယူနိုင်ပါမည်။')">ကြော်ငြာကြည့်ရန်</button>
+</div>
+<div class="card">
+<h3>💰 ငွေထုတ်ရန်</h3>
+<p>KBZPay / WavePay</p>
+<p class="note">ငွေပေးချေမှုစနစ် အတည်ပြုပြီးမှ ဖွင့်လှစ်ပါမည်။</p>
+</div>
+</body>
+</html>
